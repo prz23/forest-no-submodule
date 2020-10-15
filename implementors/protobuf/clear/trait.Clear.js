@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["graphsync"] = [{"text":"impl Clear for Message","synthetic":false,"types":[]},{"text":"impl Clear for Message_Request","synthetic":false,"types":[]},{"text":"impl Clear for Message_Response","synthetic":false,"types":[]},{"text":"impl Clear for Message_Block","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
