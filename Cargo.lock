@@ -3001,6 +3001,7 @@ dependencies = [
  "num-traits 0.2.12",
  "rayon",
  "runtime",
+ "serde",
  "state_tree",
 ]
 
