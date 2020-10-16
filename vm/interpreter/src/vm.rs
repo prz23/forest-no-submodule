@@ -30,7 +30,7 @@ use vm::{actor_error, ActorError, ExitCode, Serialized, TokenAmount};
 const GAS_OVERUSE_NUM: i64 = 11;
 const GAS_OVERUSE_DENOM: i64 = 10;
 
-#[derive(Debug)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct BlockMessages {
     pub miner: Address,
     pub messages: Vec<ChainMessage>,
