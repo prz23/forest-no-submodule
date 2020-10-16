@@ -26,6 +26,7 @@ use std::convert::TryFrom;
 use std::error::Error as StdError;
 use std::marker::PhantomData;
 use vm::{actor_error, ActorError, ExitCode, Serialized, TokenAmount};
+use serde::{Deserialize, Serialize};
 
 const GAS_OVERUSE_NUM: i64 = 11;
 const GAS_OVERUSE_DENOM: i64 = 10;
