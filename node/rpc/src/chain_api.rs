@@ -21,7 +21,7 @@ use serde::{Deserialize, Serialize};
 use wallet::KeyStore;
 
 #[derive(Serialize, Deserialize)]
-pub(crate) struct BlockMessages {
+pub struct BlockMessages {
     #[serde(rename = "BlsMessages", with = "unsigned_message::json::vec")]
     pub bls_msg: Vec<UnsignedMessage>,
     #[serde(rename = "SecpkMessages", with = "signed_message::json::vec")]

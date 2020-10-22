@@ -33,6 +33,8 @@ use serde::Serialize;
 use state_manager::StateManager;
 use wallet::KeyStore;
 
+pub use chain_api::BlockMessages;
+
 type WsSink = SplitSink<WebSocketStream<TcpStream>, async_tungstenite::tungstenite::Message>;
 
 const CHAIN_NOTIFY_METHOD_NAME: &str = "Filecoin.ChainNotify";
